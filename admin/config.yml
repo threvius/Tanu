@@ -7,7 +7,7 @@
 
 backend:
   name: github
-  repo: n-ii-lo/Tanu
+  repo: threvius/Tanu
   branch: main
   base_url: https://sveltia-cms-auth.SUBDOMAIN.workers.dev
 
