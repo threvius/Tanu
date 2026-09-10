@@ -1,15 +1,14 @@
 # yaml-language-server: $schema=https://unpkg.com/@sveltia/cms/schema/sveltia-cms.json
 #
-# TODO перед запуском адмінки:
-#   1. repo     — власник/назва репозиторію, куди CMS комітить зміни
-#   2. branch   — гілка, з якої публікується сайт
-#   3. base_url — URL воркера sveltia-cms-auth на Cloudflare (крок 5 брифу)
+# Воркер sveltia-cms-auth задеплоєний на Cloudflare (акаунт admintanu-rgb).
+# Далі: GitHub OAuth App з callback base_url + "/callback",
+# Client ID/Secret прописати змінними воркера в Cloudflare.
 
 backend:
   name: github
   repo: threvius/Tanu
   branch: main
-  base_url: https://sveltia-cms-auth.SUBDOMAIN.workers.dev
+  base_url: https://sveltia-cms-auth.admintanu.workers.dev
 
 site_url: https://www.tanuicecream.com
 
